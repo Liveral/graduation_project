@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+<<<<<<< HEAD
+        <entry key="..\:/Users/ghddb/AndroidStudioProjects/test_application3/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/ghddb/AndroidStudioProjects/test_application3/app/src/main/res/layout/frag1.xml" value="0.1933876811594203" />
+        <entry key="..\:/Users/ghddb/AndroidStudioProjects/test_application3/app/src/main/res/layout/frag2.xml" value="0.19384057971014493" />
+        <entry key="..\:/Users/ghddb/AndroidStudioProjects/test_application3/app/src/main/res/layout/frag3.xml" value="0.1933876811594203" />
+=======
+        <entry key="..\:/android-sdk/test_application/test_application3/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.236" />
+        <entry key="..\:/android-sdk/test_application/test_application3/app/src/main/res/drawable/bin_blue.xml" value="0.264" />
+        <entry key="..\:/android-sdk/test_application/test_application3/app/src/main/res/drawable/custom_bottom_navigation.xml" value="0.236" />
+        <entry key="..\:/android-sdk/test_application/test_application3/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.236" />
+        <entry key="..\:/android-sdk/test_application/test_application3/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.236" />
+>>>>>>> upstream/master
+        <entry key="..\:/android-sdk/test_application/test_application3/app/src/main/res/drawable/ic_baseline_star_24.xml" value="0.1" />
+        <entry key="..\:/android-sdk/test_application/test_application3/app/src/main/res/drawable/ic_launcher_background.xml" value="0.264" />
+        <entry key="..\:/android-sdk/test_application/test_application3/app/src/main/res/drawable/ic_shopping_1.xml" value="0.131" />
+        <entry key="..\:/android-sdk/test_application/test_application3/app/src/main/res/drawable/menu_selector_color.xml" value="0.1" />
+        <entry key="..\:/android-sdk/test_application/test_application3/app/src/main/res/drawable/profile.xml" value="0.236" />
+        <entry key="..\:/android-sdk/test_application/test_application3/app/src/main/res/drawable/transparent_background.xml" value="0.236" />
+        <entry key="..\:/android-sdk/test_application/test_application3/app/src/main/res/font/font.xml" value="0.2838541666666667" />
+        <entry key="..\:/android-sdk/test_application/test_application3/app/src/main/res/layout-w1240dp/activity_login2.xml" value="0.14725568942436412" />
+        <entry key="..\:/android-sdk/test_application/test_application3/app/src/main/res/layout-w936dp/activity_login2.xml" value="0.171875" />
+        <entry key="..\:/android-sdk/test_application/test_application3/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/android-sdk/test_application/test_application3/app/src/main/res/layout/activity_login2.xml" value="0.1" />
+        <entry key="..\:/android-sdk/test_application/test_application3/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/android-sdk/test_application/test_application3/app/src/main/res/layout/frag1.xml" value="0.17708333333333334" />
+        <entry key="..\:/android-sdk/test_application/test_application3/app/src/main/res/layout/frag2.xml" value="0.17708333333333334" />
+        <entry key="..\:/android-sdk/test_application/test_application3/app/src/main/res/layout/frag3.xml" value="0.17708333333333334" />
+        <entry key="..\:/android-sdk/test_application/test_application3/app/src/main/res/menu/bottom_menu.xml" value="0.1" />
+        <entry key="..\:/android-sdk/test_application/test_application3/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.236" />
+        <entry key="..\:/android-sdk/test_application/test_application3/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.131" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
