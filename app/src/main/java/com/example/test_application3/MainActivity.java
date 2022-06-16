@@ -36,9 +36,11 @@ import java.io.File;
 public class MainActivity extends AppCompatActivity {
     FloatingActionButton fab, fab1, fab2;
     Animation fabOpen, fabClose;
+
     ImageView imageview;
     File file;
     Uri uri;
+    int value=0;
     private View view;
     Button bntCamera;
     boolean isOpen =false; // 디폴트값은 false
@@ -53,8 +55,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-    Intent intent = new Intent(this, LoginActivity.class);
-        startActivity(intent);
         bottomNavigationView =findViewById(R.id.bottom_navi);
         bottomNavigationView.setBackground(null);
         fab=(FloatingActionButton) findViewById(R.id.floatingActionButton);
@@ -106,10 +106,14 @@ public class MainActivity extends AppCompatActivity {
                     e.printStackTrace();
                 }
 
-                Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                //Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                Intent intent=new Intent(MainActivity.this,MainActivity2.class);
                 intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
                 //intent.putExtra(MediaStore.EXTRA_OUTPUT, uri);
                 startActivityForResult(intent, 101);
+                /*Intent myintent=new Intent(MainActivity.this,MainActivity2.class);
+                startActivity(myintent);*/
+
 
             }
 
@@ -144,15 +148,15 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+    //@Override
+    /*protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         if(requestCode == 101 && resultCode == RESULT_OK){
             Bundle extras = data.getExtras();
             Bitmap imageBitmap = (Bitmap) extras.get("data");
             imageview.setImageBitmap(imageBitmap);
         }
-    }
+    }*/
 
     public void takePicture(){
         try{
@@ -199,4 +203,5 @@ public class MainActivity extends AppCompatActivity {
 
         }
     }
+
 }
